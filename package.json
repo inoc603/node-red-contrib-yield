@@ -1,8 +1,12 @@
 {
   "name": "node-red-contrib-yield",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node-RED node to send multiple messages",
   "author": "inoc603",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inoc603/node-red-contrib-yield.git"
+  },
   "dependencies": {},
   "keywords": [
     "node-red"
