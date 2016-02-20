@@ -13,7 +13,7 @@ module.exports = function(RED) {
         if (msg.payload.length === 0) {
           return node.send(msg)
         }
-        msg.payload.map(function (message) {
+        msg.payload.forEach(function (message) {
           node.send(message)
         })
       } else {
